@@ -162,8 +162,12 @@
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="15"
+                android:background="#FFFFFF"
                 android:text="="
-                android:textSize="45sp" />
+                android:textColor="@color/white"
+                android:textSize="45sp"
+                app:iconTint="#FFFFFF"
+                app:strokeColor="#77FFFFFF" />
         </TableRow>
 
     </TableLayout>
